@@ -1,0 +1,17 @@
+.todo-list {
+    background-color: rgb(172, 247, 184);
+    padding: 20px;
+    border-radius: 7px;
+}
+.todo-list h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: rgb(35, 84, 100);
+}
+.todo-list ul{
+    list-style: none;
+    border-radius: 8px;
+    background-color: rgb(212, 243, 217);
+    padding: 2%;
+}

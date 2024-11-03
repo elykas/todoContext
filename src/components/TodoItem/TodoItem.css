@@ -1,0 +1,39 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1%;
+   
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(9, 141, 95);
+    font-size: 22px;
+  }
+  
+  .todo-item.completed span {
+    color: #606260;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: 2px 2px 8px rgb(190, 190, 190);
+    background-color: rgb(8, 198, 8);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .todo-item .todo-status-and-text{
+    display: flex;
+    gap: 40px;
+  }
+  
