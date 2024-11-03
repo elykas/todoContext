@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { useTodoContext } from '../../context/TodoContext';
 import TodoForm from '../TodoForm/TodoForm';
 import BasicSpinner from '../BasicSpinner/BasicSpinner';
@@ -7,7 +7,7 @@ import "./TodoList.css"
 
 const TodoList:FC = () => {
 
-    const { todos, isLoading, addTodo, deleteTodo, toggleCompletion } = useTodoContext();
+    const { todos, isLoading} = useTodoContext();
 
   return (
     <div className='todo-list'>
